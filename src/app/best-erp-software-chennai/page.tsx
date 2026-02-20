@@ -126,7 +126,7 @@ export default function bestErpSoftwarePage() {
           <Testimonials />
           <FAQ />
           <LeadForm />
-          <Keywords />
+          {/* <Keywords /> */}
         </main>
         <Footer />
         <FloatingActions />
