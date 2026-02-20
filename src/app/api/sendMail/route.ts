@@ -1,7 +1,7 @@
-
+import { NextRequest, NextResponse } from "next/server";
 import { sendMail } from "../../../../lib/mailer";
 
-export async function POST(req) {
+export async function POST(req: NextRequest): Promise<NextResponse> {
   try {
     const { name, email, phone, subject, message } = await req.json();
 
@@ -76,10 +76,10 @@ export async function POST(req) {
 
     await sendMail(thankYouMail);
 
-    return Response.json({ success: true, message: "Mail sent successfully!" });
+    return NextResponse.json({ success: true, message: "Mail sent successfully!" });
   } catch (error) {
     console.error("Mail Error:", error);
-    return Response.json(
+    return NextResponse.json(
       { success: false, message: "Failed to send email" },
       { status: 500 }
     );
