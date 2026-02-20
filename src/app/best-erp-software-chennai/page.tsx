@@ -10,7 +10,7 @@ import Comparison from '@/components/best-erp-software/Comparison';
 import Benefits from '@/components/best-erp-software/Benefits';
 import Testimonials from '@/components/best-erp-software/Testimonials';
 import FAQ from '@/components/best-erp-software/FAQ';
-import Keywords from '@/components/best-erp-software/Keywords';
+// import Keywords from '@/components/best-erp-software/Keywords';
 import LeadForm from '@/components/best-erp-software/LeadForm';
 import Footer from '@/components/best-erp-software/Footer';
 import BundleCRM from '@/components/best-erp-software/BundleCRM';
@@ -126,7 +126,6 @@ export default function bestErpSoftwarePage() {
           <Testimonials />
           <FAQ />
           <LeadForm />
-          <Keywords />
           
         </main>
         <Footer />
