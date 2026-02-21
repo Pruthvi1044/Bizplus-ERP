@@ -7,22 +7,22 @@ const BundleCRM: React.FC = () => {
   const modules = [
     {
       title: "Sales CRM",
-      desc: "Enquiry • Quotations • Tasks",
+      desc: "Leads • Quotations • Follow-ups",
       icon: <BarChart3 size={22} strokeWidth={1.8} />,
     },
     {
       title: "Support System",
-      desc: "Tickets • AMC • CMS",
+      desc: "Tickets • AMC • Client Service",
       icon: <Headset size={22} strokeWidth={1.8} />,
     },
     {
       title: "Accounting",
-      desc: "GST Billing • Ledger • Expenses",
+      desc: "GST Billing • Ledger • Expense Control",
       icon: <Wallet size={22} strokeWidth={1.8} />,
     },
     {
       title: "Lead Automation",
-      desc: "Website • Facebook • WhatsApp",
+      desc: "Website • Facebook • WhatsApp Auto Capture",
       icon: <Workflow size={22} strokeWidth={1.8} />,
     },
   ];
@@ -34,17 +34,18 @@ const BundleCRM: React.FC = () => {
         <div className="mb-14 text-center">
           <div className="mb-5 flex justify-center">
             <span className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-4 py-1.5 text-xs font-semibold tracking-wider text-sky-700 uppercase">
-              ⏳ Limited Time Business Upgrade
+              🎯 Chennai Business Special Offer
             </span>
           </div>
 
           <h2 className="mb-4 text-3xl font-bold text-sky-700 md:text-4xl">
-            Get 4 Business Modules FREE with BizPlusERP
+            Get 4 Essential ERP Modules FREE for Businesses
           </h2>
 
           <p className="mx-auto max-w-2xl text-base text-slate-600">
-            Implement ERP before 15th March 2026 and unlock Sales CRM, Support
-            Desk, Accounting & Automated Lead Capture at no additional cost.
+            Implement the Best ERP System for Business in Chennai and unlock
+            FREE Sales CRM, Support Desk, Accounting & Automated Lead Capture —
+            exclusively for Chennai-based companies.
           </p>
         </div>
 

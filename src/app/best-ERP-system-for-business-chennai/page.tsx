@@ -1,20 +1,20 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Header from '@/components/best-erp-software/Header';
-import Hero from '@/components/best-erp-software/Hero';
-import Problems from '@/components/best-erp-software/Problems';
-import Modules from '@/components/best-erp-software/Modules';
-import DashboardSummary from '@/components/best-erp-software/DashboardSummary';
-import Offer from '@/components/best-erp-software/Offer';
-import Comparison from '@/components/best-erp-software/Comparison';
-import Benefits from '@/components/best-erp-software/Benefits';
-import Testimonials from '@/components/best-erp-software/Testimonials';
-import FAQ from '@/components/best-erp-software/FAQ';
-import Keywords from '@/components/best-erp-software/Keywords';
-import LeadForm from '@/components/best-erp-software/LeadForm';
-import Footer from '@/components/best-erp-software/Footer';
-import BundleCRM from '@/components/best-erp-software/BundleCRM';
-import FloatingActions from '@/components/best-erp-software/FloatingActions';
+import Header from '@/components/best-erp-system-for-business/Header';
+import Hero from '@/components/best-erp-system-for-business/Hero';
+import Problems from '@/components/best-erp-system-for-business/Problems';
+import Modules from '@/components/best-erp-system-for-business/Modules';
+import DashboardSummary from '@/components/best-erp-system-for-business/DashboardSummary';
+import Offer from '@/components/best-erp-system-for-business/Offer';
+import Comparison from '@/components/best-erp-system-for-business/Comparison';
+import Benefits from '@/components/best-erp-system-for-business/Benefits';
+import Testimonials from '@/components/best-erp-system-for-business/Testimonials';
+import FAQ from '@/components/best-erp-system-for-business/FAQ';
+import Keywords from '@/components/best-erp-system-for-business/Keywords';
+import LeadForm from '@/components/best-erp-system-for-business/LeadForm';
+import Footer from '@/components/best-erp-system-for-business/Footer';
+import BundleCRM from '@/components/best-erp-system-for-business/BundleCRM';
+import FloatingActions from '@/components/best-erp-system-for-business/FloatingActions';
 
 
 /* ------------------------------
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
     "Best ERP system for SMEs"
   ],
   alternates: {
-    canonical: "https://yourwebsite.com/api/best-erp-software-chennai",
+    canonical: "https://yourwebsite.com/api/best-erp-system-for-business-chennai",
   },
   openGraph: {
-    title: "Best ERP Software in Chennai | BizPlusERP",
+    title: "Best ERP System for Business in Chennai | BizPlusERP",
     description:
       "Top manufacturing ERP for Chennai industries. Used by factories in Ambattur, Guindy, Sriperumbudur, Oragadam & Thirumazhisai.",
-    url: "https://yourwebsite.com/api/best-erp-software-chennai",
+    url: "https://yourwebsite.com/api/best-erp-system-for-business-chennai",
     siteName: "BizPlusERP",
     type: "website",
     images: [
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
         url: "https://yourwebsite.com/og-image-chennai.jpg",
         width: 1200,
         height: 630,
-        alt: "Best ERP software in Chennai"
+        alt: "Best ERP system for business in Chennai"
       }
     ],
     locale: "en_IN",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
    ⭐ PAGE + ORGANIZATION SCHEMA (JSON-LD)
 ----------------------------------------*/
 
-export default function bestErpSoftwarePage() {
+export default function bestErpSystemForBusiness() {
   return (
     <>
       {/* ORGANIZATION SCHEMA */}
@@ -103,8 +103,8 @@ export default function bestErpSoftwarePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            name: "Best ERP Software in Chennai – BizPlusERP",
-            url: "https://yourwebsite.com/api/best-erp-software-chennai",
+            name: "Best ERP System for Business in Chennai – BizPlusERP",
+            url: "https://yourwebsite.com/api/best-erp-system-for-business-chennai",
             description:
               "BizPlusERP is Chennai’s most advanced manufacturing ERP with modules for production, job cards, inventory, finance, and CRM."
           }),
@@ -126,8 +126,7 @@ export default function bestErpSoftwarePage() {
           <Testimonials />
           <FAQ />
           <LeadForm />
-          <Keywords />
-          
+          {/* <Keywords /> */}
         </main>
         <Footer />
         <FloatingActions />
