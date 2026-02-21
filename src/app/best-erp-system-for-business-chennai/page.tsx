@@ -21,44 +21,42 @@ import Keywords from '@/components/best-erp-system-for-business/Keywords';
 
 export const metadata = {
   title: "Best ERP System for Business in Chennai | BizPlusERP",
-  description: "Best ERP System for Business in Chennai for inventory management, accounting, CRM, billing, and business automation. Trusted by growing businesses across Chennai NCR. Schedule a free demo today.", 
+  description: "Best ERP System for Business in Chennai for inventory management, accounting, CRM, billing, and business automation. Trusted by growing businesses across Chennai NCR. Schedule a free demo today.",
   keywords: [
-    "Best ERP system for business in Chennai",
-    "BizPlusERP Chennai",
-    "Top ERP system in Chennai NCR",
-    "Business ERP system Chennai",
-    "ERP system provider in Chennai",
-    "Best ERP software for small business Chennai",
-    "Cloud ERP system Chennai NCR",
-    "Affordable ERP system Chennai",
-    "Inventory management ERP system Chennai",
-    "Accounting and billing ERP Chennai",
-    "CRM integrated ERP system Chennai",
-    "GST compliant ERP system Chennai",
-    "All-in-one business ERP Chennai",
-    "Enterprise resource planning system Chennai",
-    "ERP for growing businesses Chennai",
-    "Complete business automation ERP Chennai",
-    "Multi-location ERP system Chennai NCR",
-    "Customizable ERP system Chennai",
-    "SME ERP system Chennai",
-    "BizPlusERP business software Chennai"
-          ],
+    "Best ERP System For Business",
+    "Business ERP Software",
+    "Top ERP For Business Management",
+    "Cloud ERP For Business",
+    "ERP System For Small Business",
+    "Enterprise Resource Planning Software",
+    "Best ERP Software For SMEs",
+    "Business Automation ERP",
+    "All In One Business ERP",
+    "Multi Branch ERP System",
+    "Inventory And Accounting ERP",
+    "ERP For Service Based Businesses",
+    "Retail Business ERP System",
+    "CRM And ERP Integrated System",
+    "Business Management Software"
+  ],
+
   alternates: {
-    canonical: "https://www.yourdomain.com/best-erp-system-for-business-Chennai"
+    canonical: "https://www.yourdomain.com/best-erp-system-for-business"
   },
+
   openGraph: {
-    title: "Best ERP System for Business in Chennai | BizPlusERP",
-    description: "Looking for the best ERP system for business in Chennai? BizPlusERP offers inventory, accounting, CRM, billing, and complete business automation solutions for SMEs. Book a free demo today.",
-    url: "https://www.yourdomain.com/best-erp-system-for-business-Chennai",
+    title: "Best ERP System for Business | BizPlusERP",
+    description:
+      "Looking for the best ERP system for business? BizPlusERP offers accounting, inventory, CRM, HR, billing, and complete business automation for SMEs and Enterprises.",
+    url: "https://www.yourdomain.com/best-erp-system-for-business",
     siteName: "BizPlusERP",
     images: [
       {
-        url: "https://www.yourdomain.com/og-image.jpg",
-      },
+        url: "https://www.yourdomain.com/images/best-erp-system-for-business.jpg"
+      }
     ],
-    type: "website",
-  },
+    type: "website"
+  }
 };
 
 const bsetERPsoftwarePage: React.FC = () => {
