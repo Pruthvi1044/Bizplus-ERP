@@ -16,6 +16,7 @@ import LeadForm from '@/components/ManufacturingERP/LeadForm';
 import Footer from '@/components/ManufacturingERP/Footer';
 import BundleCRM from '@/components/ManufacturingERP/BundleCRM';
 import FloatingActions from '@/components/ManufacturingERP/FloatingActions';
+import Keywords from '@/components/best-erp-system-for-business/Keywords';
 
 
 
@@ -37,6 +38,7 @@ const ManufacturingERPPage: React.FC = () => {
         <FAQ />
         <Cities />
         <LeadForm />
+        {/* <Keywords /> */}
       </main>
 
       <Footer />
