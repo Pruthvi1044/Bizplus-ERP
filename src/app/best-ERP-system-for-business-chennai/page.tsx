@@ -44,18 +44,18 @@ export const metadata: Metadata = {
     "Best ERP system for SMEs"
   ],
   alternates: {
-    canonical: "https://yourwebsite.com/api/best-erp-system-for-business-chennai",
+    canonical: "https://www.yourdomain.com/api/best-erp-system-for-business-chennai",
   },
   openGraph: {
     title: "Best ERP System for Business in Chennai | BizPlusERP",
     description:
       "Top manufacturing ERP for Chennai industries. Used by factories in Ambattur, Guindy, Sriperumbudur, Oragadam & Thirumazhisai.",
-    url: "https://yourwebsite.com/api/best-erp-system-for-business-chennai",
+    url: "https://www.yourdomain.com/api/best-erp-system-for-business-chennai",
     siteName: "BizPlusERP",
     type: "website",
     images: [
       {
-        url: "https://yourwebsite.com/og-image-chennai.jpg",
+        url: "https://www.yourdomain.com/og-image-chennai.jpg",
         width: 1200,
         height: 630,
         alt: "Best ERP system for business in Chennai"
@@ -130,6 +130,7 @@ export default function bestErpSystemForBusiness() {
         </main>
         <Footer />
         <FloatingActions />
+
       </div>
     </>
   );

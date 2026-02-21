@@ -44,18 +44,18 @@ export const metadata: Metadata = {
     "Best ERP system for SMEs"
   ],
   alternates: {
-    canonical: "https://yourwebsite.com/api/best-erp-software-chennai",
+    canonical: "https://www.yourdomain.com/api/best-erp-software-chennai",
   },
   openGraph: {
     title: "Best ERP Software in Chennai | BizPlusERP",
     description:
       "Top manufacturing ERP for Chennai industries. Used by factories in Ambattur, Guindy, Sriperumbudur, Oragadam & Thirumazhisai.",
-    url: "https://yourwebsite.com/api/best-erp-software-chennai",
+    url: "https://www.yourdomain.com/api/best-erp-software-chennai",
     siteName: "BizPlusERP",
     type: "website",
     images: [
       {
-        url: "https://yourwebsite.com/og-image-chennai.jpg",
+        url: "https://www.yourdomain.com/og-image-chennai.jpg",
         width: 1200,
         height: 630,
         alt: "Best ERP software in Chennai"
